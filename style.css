@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    ;
+}
+h1{
+    font-family: 'Great Vibes';
+    font-weight: 100;
+    font-style: italic;
+    color: red;    
+}
+
+.our-story {
+    background-color: rgb(235, 234, 234);
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    margin: 5% 0;
+}
+
+.story-content {
+    width: 50%;
+    margin-left: 100px;
+}
+
+.story-content h1 {
+    font-size: 40px;
+    padding-top: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.story-content h3 {
+    font-size: 25px;
+    margin-top: 15px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+.story-content p {
+    margin-top: 20px;
+    color: rgb(40, 40, 40);
+}
+
+.box {
+    display: flex;
+    justify-content: space-around;
+    left: 0;
+    height: 15vh;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.box .mail {
+    border: 1px solid black;
+    width: 50%;
+    display: flex;
+}
+
+.box .phone {
+    border: 1px solid black;
+    width: 50%;
+    display: flex;
+}
+
+.box i {
+    color: red;
+    font-size: 29px;
+    align-items: center;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 30px;
+
+}
+
+.text h3 {
+    margin-top: 10px;
+    padding-left: 20px;
+
+}
+
+.text p {
+    margin-top: 8px;
+    padding-left: 20px;
+}
+
+.story-form {
+    width: 30%;
+    height: 58vh;
+    background-color: white;
+    margin-left: 100px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.story-form h2 {
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.form {
+    text-align: center;
+    align-items: center;
+}
+
+.form input,
+select {
+    width: 70%;
+    align-items: center;
+    text-align: center;
+    height: 6vh;
+    margin: 10px;
+}
+
+.form .submit {
+
+    width: 25%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+
+}
